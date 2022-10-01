@@ -1,0 +1,34 @@
+/* Wrapper */
+
+	#wrapper {
+		opacity: 1 !important;
+	}
+
+/* Overlay */
+
+	#overlay {
+		opacity: 1 !important;
+	}
+
+/* Header */
+
+	#header {
+		opacity: 1 !important;
+	}
+
+		#header nav li {
+			opacity: 1 !important;
+		}
+
+/* Hide Email */
+
+.protected-mail:after {
+	content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
+}
+
+/* Hide Hidden Articles */
+
+#button_content article {
+	opacity: 1;
+	margin: 4rem 0 0 0;
+}
