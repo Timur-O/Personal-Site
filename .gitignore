@@ -1,2 +1,6 @@
 # Ignore WebStorm Files
 .idea
+
+# Ignore Firebase Logs
+firebase-debug.log
+.firebase
